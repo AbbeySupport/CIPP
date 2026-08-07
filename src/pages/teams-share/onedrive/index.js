@@ -10,7 +10,7 @@ const Page = () => {
     queryKey: 'ListSites-OneDriveUsageAccount',
     cacheName: 'OneDriveUsage',
     syncTitle: 'Sync OneDrive Report',
-    syncData: { Types: 'OneDriveUsageAccount' },
+    syncData: { Types: 'OneDriveUsage' },
     allowToggle: true,
     defaultCached: false,
     allowAllTenantSync: true,
